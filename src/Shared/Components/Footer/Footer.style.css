@@ -1,0 +1,63 @@
+.call-contact{
+	margin: 100px auto;
+	width: 80%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,39,0.7)),url("../../../assets//imgs/banner2.jpg");
+	background-position: center;
+	background-size: cover;
+	border-radius: 10px;
+	text-align: center;
+	padding: 100px 0;
+}
+.call-contact h1{
+	color: #fff;
+	margin-bottom: 40px;
+	padding: 0;
+	font-size: 28;
+	font-weight: 600;
+}
+
+@media(max-width: 700px){
+	.call-contact h1{
+		font-size: 22px;
+		padding: 20px
+	}
+}
+
+.footer{
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+	background-color: #313131;
+}
+.footer h4{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+	color: #fff;
+}
+.footer p{
+	padding: 0px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+}
+.contact-medias{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    padding-top: 30px
+}
+
+@media(max-width: 700px){
+	.footer{
+		padding: 5px;
+	}
+	.footer p{
+		padding: 0 20px;
+	}
+	.contact-medias a{
+		padding: 1px;
+		margin: 16px;
+	}
+}

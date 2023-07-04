@@ -1,0 +1,39 @@
+.campus{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+.campus h1{
+	font-size: 36px;
+	font-weight: 600;
+}
+.campus p{
+	color: #777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+.campus-col{
+	flex-basis: 32%;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.campus-col img{
+  width: 100%
+}
+.layer{
+	display: flex;
+	justify-content: center;
+	background-color: #f44336;
+	height: 100%;
+	width: 100%;
+	color:#fff;
+}
+.layer:hover{
+	transform: scale(1.06);
+	transition: 0.4s;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.24);
+}
